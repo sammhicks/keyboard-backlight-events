@@ -1,0 +1,11 @@
+# Operating system and editor files
+/.vscode/
+/.directory
+
+# Compiler generated intermediate files
+/dependencies/
+/objects/
+
+# Compiled binaries
+/bin/
+/root/

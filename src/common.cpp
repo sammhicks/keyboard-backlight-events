@@ -40,9 +40,7 @@ Color colorString(const string &str) {
     }
   }
 
-  throw range_error(dynamic_cast<std::ostringstream &>(
-                        ostringstream("").flush() << "Invalid color: " << str)
-                        .str());
+  throw range_error("Invalid color");
 }
 
 Color getColor(istream &is) {
